@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insurance Management - Admin Dashboard</title>
+</head>
+<body style="background-color:rgb(101, 184, 195);">
+    
+    <h1>Welcome, Admin</h1>
+
+    <form action="login.php" method="POST">
+        <label for="adminUsername">Username:</label>
+        <input type="text" id="adminUsername" name="adminUsername" required><br><br>
+
+        <label for="adminPassword">Password:</label>
+        <input type="password" id="adminPassword" name="adminPassword" required><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+
+    <a href="approveagents.php">Approve Agent Login</a>
+
+    <a href="C:\Users\jagad\OneDrive\Documents\12 2.html">View All Agent Details</a>
+
+    <!-- Additional admin functionalities can be added here -->
+</body>
+</html>
